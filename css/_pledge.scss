@@ -1,0 +1,25 @@
+.pledge {
+  height: 300px;
+  background-color: $pledge-color;
+  .pledge-text {
+    width: 70%;
+    margin: 0 auto;
+    @include verticalcenter;
+    h2 {
+      color: white;
+      font-weight: bold;
+      font-size: 1.5em;
+      line-height: 2em;
+      text-align: center;
+    }
+    hr {
+      color: white;
+      width: 95%;
+    }
+    p {
+      color: white;
+      line-height: 2em;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@import "variables";
+
+@mixin verticalcenter {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.15;
+  color: $text-color;
+}
+
+body {
+  background-color: $body-color;
+}
+
+@import "hero";
+@import "pledge";
+@import "mainbody";
+@import "footer";

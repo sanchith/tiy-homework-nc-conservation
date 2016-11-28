@@ -1,0 +1,50 @@
+.mainbody {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 30px;
+    text-align: center;
+    h2 {
+      color: $pledge-color;
+      font-size: 1.5em;
+      font-weight: bold;
+      line-height: 2em;
+    }
+    p {
+      color: $text-color;
+      line-height: 2em;
+    }
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .flex-item {
+    height: 300px;
+    width: 25%;
+    background-color: white;
+    padding: 1%;
+    padding-top: 30px;
+    margin: 30px 1%;
+    h3 {
+      color: $pledge-color;
+      font-size: 1.17em;
+      font-weight: bold;
+      text-align: center;
+      line-height: 2em;
+    }
+    p {
+      color: $text-color;
+      text-align: center;
+    }
+  }
+}
+
+.fa {
+  color: $pledge-color;
+  padding: 10px;
+  border: 1px solid $pledge-color;
+  border-radius: 100%;
+}

@@ -1,0 +1,102 @@
+.hero {
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  // background-color: rgba(0, 0, 0, 0.5);
+}
+
+video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  z-index: -100;
+}
+
+.hero {
+  overflow: hidden;
+  height: 500px;
+  // background-color: lightblue;
+  .hero-hdr {
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    img {
+      float: left;
+      height: 75px;
+      weight: 75px;
+    }
+    ul {
+      float: right;
+      display: block;
+      li {
+        display: inline;
+        a {
+          text-decoration: none;
+          color: $pledge-color;
+          padding: 15px;
+          background-color: white;
+          margin: 10px;
+        }
+        a:hover {
+          cursor: pointer;
+          color: white;
+          background-color: $pledge-color;
+        }
+      }
+    } //end of ul
+    .dropdownmenu1 {
+      color: $pledge-color;
+      padding: 15px;
+      background-color: white;
+      margin-top: 0;
+    }
+    .dropdownmenu1:hover {
+      cursor: pointer;
+      color: white;
+      background-color: $pledge-color;
+    }
+    .dropdownmenu1 li {
+      list-style: none;
+      display: none;
+      background-color: white;
+      color: $pledge-color;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 10px;
+    }
+    .dropdownmenu1 li {
+      width: 150px;
+    }
+    .dropdownmenu1:hover {
+      li{
+        display: block;
+      }
+    }
+    .dropdownmenu1 li:hover {
+      color: white;
+      background-color: $pledge-color;
+    }
+  } //end of hero-hdr
+}
+
+
+.hero {
+  .hero-text {
+    clear: both;
+    width: 50%;
+    margin: 0 auto;
+    // @include verticalcenter;
+    margin-top: 14%;
+    h1 {
+      color: $pledge-color;
+      font-size: 40px;
+      font-weight: bold;
+    }
+    p {
+      color: white;
+      font-size: 20px;
+      line-height: 2em;
+      text-align: center;
+    }
+  }
+}
